@@ -1,4 +1,5 @@
  # AI Agent to Answer E-commerce Data Questions
+ An AI agent designed to answer e-commerce data questions by converting natural language queries into SQL, executing them against a MySQL database, and providing human-readable responses, with optional visualizations.
  ## Objective
 The task is to build an AI agent that can:
 
