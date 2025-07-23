@@ -46,3 +46,5 @@ Steps to Follow
 
       ●	Event streaming responses to simulate real-time interaction.
 
+## Link
+The link to open the AI Chatbot : http://127.0.0.1:7865
