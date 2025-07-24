@@ -1,50 +1,49 @@
- # AI Agent to Answer E-commerce Data Questions
- An AI agent designed to answer e-commerce data questions by converting natural language queries into SQL, executing them against a MySQL database, and providing human-readable responses, with optional visualizations.
- ## Objective
-The task is to build an AI agent that can:
+# 🛒 AI Agent to Answer E-commerce Data Questions
 
-●	Answer any question related to the data provided.
+An AI-powered agent that converts **natural language questions** into SQL queries, executes them on a **MySQL database**, and returns **human-readable answers** — with optional **visualizations** and **live-typing** responses.
 
-●	Receive questions via API endpoints, query the data, and respond with accurate answers.
+📌 *Developed as part of a technical interview assignment for a GenAI internship opportunity.*
 
-●	Bonus: If possible, visualize the results and provide streamed responses (like live typing effect).
 
- ## Dataset
-●	Product-Level Ad Sales and Metrics
+## 🎯 Objective
 
-●	Product-Level Total Sales and Metrics
+The goal of this project is to build a robust AI agent capable of:
 
-●	Product-Level Eligibility Table
+- 🧠 Understanding natural language queries  
+- 🧾 Translating them into SQL  
+- 📊 Querying the database and returning accurate, human-readable responses  
+- 📈 (Bonus) Generating graphs for data insights  
+- 💬 (Bonus) Simulating real-time interaction using streamed text responses  
 
-## Steps Followed
-Steps to Follow
-1.	Convert the datasets into SQL tables.
 
-2.	Choose an LLM (Large Language Model) that can run locally (downloadable and usable without internet).
+## 🗂️ Dataset
 
-3.	Write a codebase that connects:
+This project uses three e-commerce related datasets:
 
-    ● The LLM,
-  	
-  	● The SQL tables,
-  	
-  	● And the API endpoints to receive and respond to questions.
+1. **Product-Level Ad Sales and Metrics**  
+2. **Product-Level Total Sales and Metrics**  
+3. **Product-Level Eligibility Table**
 
-5.	Implement logic so the AI agent can:
 
-      ●	Understand the question,
+## 🔧 Steps & Implementation
 
-      ●	Convert it into an SQL query,
+1. **Convert CSV datasets** into **SQL tables** using MySQL.  
+2. **Select a local LLM** (Large Language Model) capable of running offline.  
+3. **Develop a codebase** to connect:
+   - The LLM  
+   - The SQL tables  
+   - API endpoints for receiving and responding to user questions  
+4. **Implement query handling logic**:
+   - Understand user questions  
+   - Generate and execute SQL queries  
+   - Return results in clear, human-readable format  
+5. *(Bonus Features)*:
+   - Visualize responses for applicable queries using graphs  
+   - Stream results with a live-typing effect for enhanced UX
 
-      ●	Fetch the answer from the database,
+---
 
-      ●	And return it in a human-readable format.
+## 🚀 Getting Started
 
-5.	(Bonus) Add:
+To launch the AI chatbot locally: http://127.0.0.1:7865
 
-      ●	Graphs/visuals for certain queries,
-
-      ●	Event streaming responses to simulate real-time interaction.
-
-## Link
-The link to open the AI Chatbot : http://127.0.0.1:7865
